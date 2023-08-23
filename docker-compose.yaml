@@ -6,7 +6,7 @@ services:
     ports:
       - '3000:3000'
     volumes:
-      - .:/app/node/home
+      - .:/home/node/app
 
   db:
     image: bitnami/mongodb:5.0.17
